@@ -78,7 +78,7 @@ body {
     border-top-left-radius: 8px;
     /* overflow: hidden; */
 
-    background-image: url(/images/image-header-mobile.jpg);
+    background-image: url(../images/image-header-mobile.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--Purple-500);
