@@ -1,0 +1,129 @@
+:root {
+
+    /*(main background) */
+    --Navy-950: hsl(233, 47%, 7%);
+    /*(card background)*/
+    --Blue-950: hsl(244, 37%, 16%);
+    /* (accent)*/
+    --Purple-500: hsl(277, 64%, 61%);
+
+
+    --cont-width: 340px;
+    --cont-padding: ;
+
+
+    /* (main heading, stats) */
+    --White-mainheading: hsl(0, 0%, 100%);
+
+    /* (main paragraph) */
+    --White-main-paragraph: hsla(0, 0%, 100%, 0.75);
+
+
+    /* (stat headings) */
+    --White-stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Navy-950);
+    display: flex;
+    justify-content: center;
+
+    font-size: 15px;
+    text-align: center;
+
+
+
+}
+
+.font1 {
+    font-family: "Inter", sans-serif;
+    color: ;
+    /* font-weight: 700; */
+}
+
+
+
+.container {
+    width: var(--cont-width);
+    background-color: var(--Blue-950);
+    border-radius: 8px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%); */
+
+
+    position: absolute;
+    top: 30px;
+
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    /* overflow: hidden; */
+
+    background-image: url(/images/image-header-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--Purple-500);
+    background-blend-mode: multiply;
+    filter: brightness(0.8) ;
+
+}
+
+img {
+    width: var(--cont-width);
+
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    filter: blur(0px);
+}
+
+
+
+
+.cont2 {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.df-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+
+p {
+    line-height: 1.6;
+}
+
+
+
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
