@@ -81,7 +81,7 @@ body {
     border-top-left-radius: 8px;
     /* overflow: hidden; */
 
-    background-image: url(../images/image-header-mobile.jpg);
+    background-image: url(../assets/images/image-header-mobile.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--Purple-500);
@@ -213,6 +213,7 @@ h2 {
     }
 
     .img {
+        background-image: url(../assets/images/image-header-desktop.jpg);
         background-size: cover !important;
         border-radius: unset;
 

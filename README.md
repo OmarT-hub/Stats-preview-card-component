@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](/screenshots/Screenshot%202025-11-05%20033352.png)
-![](/screenshots/Screenshot_٢٠٢٥-١١-٠٥-٠٢-٤٤-٠٢-٢٩.jpg)
+![](./assets/screenshots/1.jpg)
+![](./assets/screenshots/2.jpg)
 
 
 ### Links
