@@ -138,6 +138,11 @@ p {
     gap: 17px;
 }
 
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 .df-cont {
     display: flex;
@@ -170,26 +175,33 @@ h2 {
 
 
 @media (min-width:768px) {
-    :root{
+    :root {
         all: unset;
-        margin: 0;padding: 0;box-sizing: border-box;
-        
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
     }
+
     body {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
+
+        text-align: unset;
     }
 
     .container {
         all: unset;
         display: flex;
         flex-direction: row-reverse;
-        border: 2px solid gold;
         width: 75vw;
-        height: 50vh;
-        
+        height: 29vw;
+
+        overflow: hidden;
+        border-radius: 8px;
+
 
     }
 
@@ -201,11 +213,53 @@ h2 {
     }
 
     .img {
-        border: 2px solid red;
+        background-size: cover !important;
+        border-radius: unset;
+
+
     }
 
     .cont2 {
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
+
+        padding-top: 6%;
+        padding-left: 6%;
+        background-color: var(--Blue-950);
+
+    }
+
+    h1 {
+        /* border: 2px solid white; */
+        width: 80%;
+        margin-bottom: 0.5vw;
+        font-size: 2.26vw;
+    }
+
+    h1+p {
+        text-indent: unset;
+        /* border: 2px solid white ; */
+        width: 85%;
+        font-size: 1.1vw;
+
+
+        margin-bottom: 2.5vw;
+    }
+
+
+    .numbers {
+        all: unset;
+        display: flex;
+        flex-direction: row;
+        gap: 20%;
+    }
+
+    h2+span {
+        all: unset;
+        font-size: 0.9vw !important;
+    }
+    .df-cont .font1{
+        font-size: 1.7vw;
+
     }
 
 
